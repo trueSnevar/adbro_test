@@ -86,7 +86,7 @@ DATABASES = {
 GRAPHENE = {
     'SCHEMA': 'visibility.schema.schema',
     'MIDDLEWARE': [
-        'graphene_django.debug.DjangoDebugMiddleware',
+        'visibility.middleware.FieldVisibilityMiddleware',
     ]
 }
 
