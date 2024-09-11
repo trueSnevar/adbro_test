@@ -85,9 +85,6 @@ DATABASES = {
 
 GRAPHENE = {
     'SCHEMA': 'visibility.schema.schema',
-    'MIDDLEWARE': [
-        'visibility.middleware.FieldVisibilityMiddleware',
-    ]
 }
 
 
