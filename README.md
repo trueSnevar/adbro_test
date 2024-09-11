@@ -130,3 +130,17 @@ python manage.py test
  - Querying items and users
 
  - Access control for the user field based on permissions
+
+# Proof of work
+
+Introspecting schema for users with permissions
+![Introspection for user with perm](./images/Introspection_for_user_with_perm.png)
+
+Introspecting schema for users without permissions
+![Introspection for user without perm](./images/Introspection_for_user_without_perm.png)
+
+Making a query for users with permissions
+![Query for user with perm](./images/query_for_user_with_perm.png)
+
+Making a query for users without permissions
+![Query for user without perm](./images/query_for_user_without_perm.png)
